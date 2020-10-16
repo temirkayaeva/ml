@@ -1,6 +1,23 @@
 Пусть ϕ: X → {0, 1} — некоторый предикат, определённый на множестве объектов X. Говорят, что предикат ϕ выделяет или покрывает (cover) объект x, если ϕ(x) = 1. Предикат называют закономерностью, если он выделяет достаточно много объектов какого-то одного класса c, и практически не выделяет объекты других классов.
 
+## Виды интерпретируемых закономерностей
+Параметрическое семействоконъюнкций пороговых условий:
 
+<img src="https://github.com/temirkayaeva/ml/blob/main/uAyYf1bQEqdN.png">
+
+Параметрическое семейство синдромных правил:
+
+<img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694218WOBynF2/8Vo3GfZc2niS.png">
+
+Параметрическое семейство шаров:
+
+<img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694341L3C5g/5GQLn43iGC3p.png">
+
+Параметрическое семейство полуплоскостей:
+
+<img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694444oW6tX/SEonLCCHDuow.png">
+
+**Основная проблема — отбор признаков.**
 
 # Решающие списки
 
