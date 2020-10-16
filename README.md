@@ -34,7 +34,7 @@
 
 ### Логический (эвристический) критерий закономерности
 
-<img src="https://imagehost7.online-image-editor.com/oie_upload/images/16947394EH53jtu/uD6oB9qUb0Qc.png"> 
+<img src="https://github.com/temirkayaeva/ml/blob/main/5.png">
 
 **Предикат φ(x) —  логическая ε, δ-закономерность класса c∈Y** <img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694959Ee6Xb8D/bfXN46i8HmKM.png">
 
