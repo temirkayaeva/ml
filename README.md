@@ -36,7 +36,7 @@
 
 <img src="https://github.com/temirkayaeva/ml/blob/main/5.png">
 
-**Предикат φ(x) —  логическая ε, δ-закономерность класса c∈Y** <img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694959Ee6Xb8D/bfXN46i8HmKM.png">
+**Предикат φ(x) —  логическая ε, δ-закономерность класса c∈Y** <img src="https://github.com/temirkayaeva/ml/blob/main/6.png">
 
 **Проблема**: хотелось бы иметь один скалярный критерий.
 
@@ -46,7 +46,39 @@
 
 Гипотеза H0: y(x) и φ(x) — независимые случайные величины. Тогда вероятность реализации пары (p,n) описывается гипергеометрическим распределением:
 
+<img src="https://github.com/temirkayaeva/ml/blob/main/7.png">
 
+### Энтропийный критерий информативности
+
+Пусть ω0, ω1 — два исхода с вероятностями q и 1 − q. Количество информации: I0 = − log2 q, I1 = − log2(1 − q). Энтропия — математическое ожидание количества информации: h(q) = −qlog2q − (1 − q) log2 (1 − q).
+
+Энтропия выборки Xℓ, если исходы — это классы
+
+<img src="https://github.com/temirkayaeva/ml/blob/main/8.png">
+
+Энтропия выборки Xℓ после получения информации ϕ:
+
+<img src="https://github.com/temirkayaeva/ml/blob/main/9.png">
+
+### Задача перебора конъюнкций
+
+Пусть B — конечное множество элементарных предикатов, например, вида <img src="https://github.com/temirkayaeva/ml/blob/main/10.png">
+
+Множество конъюнкций с ограниченным числом термов из B: 
+
+<img src="https://github.com/temirkayaeva/ml/blob/main/11.png">
+
+#### Семейство методов локального поиска
+
+Окрестность V (ϕ) — все конъюнкции, получаемые из ϕ добавлением, изъятием или модификацией одного из термов.
+
+**Основная идея:** на t-й итерации
+
+<img src="https://github.com/temirkayaeva/ml/blob/main/12.png">
+
+#### Обобщённый алгоритм локального поиска
+
+<img src="https://github.com/temirkayaeva/ml/blob/main/13.png">
 
 # Решающие списки
 
