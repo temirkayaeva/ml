@@ -1,21 +1,33 @@
+## Определение закономерности 
+
+Закономерность (правило, rule) — это предикат ϕ: X → {0, 1}, удовлетворяющий двум требованиям:
+
+1) интерпретируемость (ϕ зависит от 1–7 признаков);
+2) информативность относительно класса c ∈ Y :
+
+<img src="https://github.com/temirkayaeva/ml/blob/main/1.png">
+
+**Если ϕ(x) = 1, то говорят «ϕ выделяет x» (ϕ covers x).**
+
+Закономерность — это хорошо интерпретируемый одноклассовый классификатор с отказами.
 
 
 ## Виды интерпретируемых закономерностей
 Параметрическое семействоконъюнкций пороговых условий:
 
-<img src="https://github.com/temirkayaeva/ml/blob/main/uAyYf1bQEqdN.png">
+<img src="https://github.com/temirkayaeva/ml/blob/main/1(1).png">
 
 Параметрическое семейство синдромных правил:
 
-<img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694218WOBynF2/8Vo3GfZc2niS.png">
+<img src="https://github.com/temirkayaeva/ml/blob/main/2.png">
 
 Параметрическое семейство шаров:
 
-<img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694341L3C5g/5GQLn43iGC3p.png">
+<img src="https://github.com/temirkayaeva/ml/blob/main/3.png">
 
 Параметрическое семейство полуплоскостей:
 
-<img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694444oW6tX/SEonLCCHDuow.png">
+<img src="https://github.com/temirkayaeva/ml/blob/main/4.png">
 
 
 **Основная проблема — отбор признаков.**
