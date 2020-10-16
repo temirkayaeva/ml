@@ -17,7 +17,16 @@
 
 <img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694444oW6tX/SEonLCCHDuow.png">
 
+
 **Основная проблема — отбор признаков.**
+
+### Логический (эвристический) критерий закономерности
+
+<img src="https://imagehost7.online-image-editor.com/oie_upload/images/16947394EH53jtu/uD6oB9qUb0Qc.png"> 
+
+**Предикат φ(x) —  логическая ε, δ-закономерность класса c∈Y** <img src="https://imagehost7.online-image-editor.com/oie_upload/images/1694959Ee6Xb8D/bfXN46i8HmKM.png">
+
+**Проблема**: хотелось бы иметь один скалярный критерий.
 
 # Решающие списки
 
